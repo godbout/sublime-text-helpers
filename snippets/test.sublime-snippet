@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+/** 
+ * @test
+ * ${1}
+ */
+public function ${1/\s/_/g}()
+{
+    ${2}
+}
+]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
