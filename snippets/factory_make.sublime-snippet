@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+factory(App\\${1:User}::class)->make(${2});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>lfm</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
