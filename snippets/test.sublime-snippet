@@ -1,12 +1,13 @@
 <snippet>
 <content><![CDATA[
+
 /**
  * @test
  * ${1}
  */
 public function ${1/\s/_/g}()
 {
-    ${2}
+    ${0}
 }
 ]]></content>
     <tabTrigger>test</tabTrigger>
