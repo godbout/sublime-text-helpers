@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-factory(App\\${1:User}::class)->make(${2});
+${1:\$user} = factory(App\\${2:User}::class)->make(${0});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>lfm</tabTrigger>
